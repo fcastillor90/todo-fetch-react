@@ -14,7 +14,7 @@ const DeleteTasks = ({ clearAllTasks, setItemBoolean, setTodoInput, setTodos }) 
     return (
         <div>
 
-            <button type="button" className="deleteTasksButton" onClick={handleDeleteButton}><i class="fa-solid fa-broom"></i> Clean all tasks</button>
+            <button type="button" className="deleteTasksButton" onClick={handleDeleteButton}><i class="fa-solid fa-watermelon-slice"></i> Clean all tasks</button>
 
 
         </div>
