@@ -1,0 +1,186 @@
+body {
+    background: #df604f;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 120px;
+    font-weight: 300;
+    color: #86458b;
+    font-weight: bold;
+}
+
+.note {
+    background-color: rgb(255, 209, 6);
+    margin: auto;
+    width: 350px;
+    border: 1px solid rgb(187, 187, 187);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+ul {
+    list-style: none;
+    width: 100%;
+    padding: 0;
+}
+
+li {
+    padding: 8px;
+    background-color: rgb(255, 209, 6);
+    box-sizing: border-box;
+}
+
+li:not(:last-child) {
+    border-bottom: 1px solid #ff0000;
+}
+
+.inputy {
+    background-color: rgb(255, 236, 150);
+    border: none;
+    transition: border 0.3s;
+}
+
+.inputy:focus {
+    border: none;
+}
+
+.trash {
+    float: right;
+    color: grey;
+    border: none;
+    background-color: rgb(255, 209, 6);
+    display: none;
+}
+
+li:hover .trash {
+    display: inline;
+}
+
+
+.containerInput {
+    text-align: center;
+}
+
+.purple-button {
+    background-color: #10be92;
+    margin-top: 5px;
+    color: white;
+    font-weight: 400;
+}
+
+.purple-button:hover {
+    background-color: #16dad0;
+}
+
+.input-username {
+    font-size: 20px;
+}
+
+.labelName {
+    margin-top: 50px;
+}
+
+.username-container {
+    background-color: #d6970f;
+    display: inline-block;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 100px;
+
+}
+
+.deletingRender {
+    text-align: center;
+    margin-top: 200px;
+    font-size: 50px;
+    margin-bottom: 20px;
+    border-radius: 20%;
+    color: #1f09e2;
+    background-color: #d6970f;
+
+}
+
+.addTaskButton {
+    float: right;
+    align-items: center;
+    background-color: #1eb6d1;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 10px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 8px 14px;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.addTaskButton:hover {
+    background-color: #f503fd;
+}
+
+
+.deleteButton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    align-items: center;
+    background-color: #6812a1;
+    border-radius: 8px;
+    border-style: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 10px;
+    list-style: none;
+    outline: none;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.deleteTasksButton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    align-items: center;
+    background-color: #ba3bf5;
+    border-radius: 8px;
+    border-style: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 10px;
+    list-style: none;
+    outline: none;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
